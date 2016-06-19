@@ -27,10 +27,13 @@ touch startcoin.conf
 printf 'listen=1\n   server=1\n  daemon=1\n   testnet=0\n   rpcuser=STARTCOIN\n   rpcpassword=STARTCOIN_TEST' >> startcoin.conf
 chmod 700 startcoin.conf
 chmod 700 ~/.startcoin-v2
-cd ~/startcoin
-wget https://www.dropbox.com/s/c45nxw29xk20af2/startcoin-qt.tgz
-tar -xzvf startcoin-qt.tgz
-startcoind stop
+sudo apt-get install qt4-qmake libqt4-dev build-essential libboost-dev libboost-system-dev \
+    libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev \
+    libssl-dev libdb++-dev libminiupnpc-dev
+sudo apt-get install qt5-qmake libqt5gui5 libqt5dbus5 qttools5-dev-tools
+qmake
+make
 cd ~/startcoin
 sudo cp startcoin-qt /usr/local/bin
 startcoin-qt
+
