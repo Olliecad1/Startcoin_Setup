@@ -1,4 +1,4 @@
-Bash script for setting up Startcoin on Raspberry Pi 
+Bash script for setting up Startcoin on Raspberry Pi and Linux 
 
 Downloading the Bash script 
 ```
