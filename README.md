@@ -2,11 +2,11 @@ Bash script for setting up Startcoin on Raspberry Pi and Linux
 
 Downloading the Bash script 
 ```
-git clone https://github.com/Olliecad1/Startcoin_setup/blob/master/Startcoin.sh
+git clone https://github.com/Olliecad1/Startcoin_setup/blob/master/StartcoinRaspberryPiSetup.sh
 ```
 Executing the Bash script 
 ```
-sudo chmod +x ./Startcoin.sh
+sudo chmod +x ./StartcoinRaspberryPiSetup.sh
 ```
 Running the Script
 ```
