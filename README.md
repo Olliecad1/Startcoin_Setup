@@ -6,10 +6,8 @@ git clone https://github.com/Olliecad1/Startcoin_setup/blob/master/StartcoinRasp
 ```
 or Linux Install 
 ```
-git clone https:/github.com/Ollicad1/Startcoin_setup/blob/master/LinuxStartCoin.sh
+git clone https:/github.com/Olliecad1/Startcoin_setup/blob/master/LinuxStartCoin.sh
 ```
-
-
 Executing the Raspberry Pi Bash script 
 ```
 sudo chmod +x ./StartcoinRaspberryPiSetup.sh
